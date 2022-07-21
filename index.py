@@ -40,6 +40,9 @@ if st.button("Listele"):
   tablo()
   urunlistele()
 
+if st.button("Liste Kapat"):
+  pass
+  
 tab1,tab2,tab3 = st.tabs(["Ürün Ekle","Ürün Sil","Fiyat Güncelle"])
 
 with tab1:
