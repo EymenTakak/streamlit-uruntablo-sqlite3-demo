@@ -53,6 +53,8 @@ with tab1:
 
   if st.button("Ekle"):
     urunekle(name,price,brand,date,image)
+    st.snow()
+    st.warning("Ürün Eklendi")
 
 
 with tab2:
@@ -62,6 +64,8 @@ with tab2:
 
   if st.button("Sil"):
     urunsil(isim)
+    st.snow()
+    st.warning("Ürün Silindi")
 
 with tab3:
   tablo()
@@ -70,4 +74,6 @@ with tab3:
   fiyat = st.number_input("Yeni Fiyat: ")
 
   if st.button("Güncelle"):
+    st.snow()
     fiyatguncelle(isim2,fiyat)
+    st.warning("Ürün Güncellendi")
