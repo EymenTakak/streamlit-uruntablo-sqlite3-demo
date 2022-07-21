@@ -51,7 +51,7 @@ with tab1:
   name = st.text_input("Ürün İsmi: ")
   price = st.number_input("Fiyat: ")
   brand = st.text_input("Marka: ")
-  date = st.text_input("Tarih: ")
+  date = st.date_input("Tarih: ")
   image = st.text_input("Fotoğraf: ")
 
   if st.button("Ekle"):
